@@ -44,64 +44,7 @@ const words = [
   "COBALT",
   "PETROLE",
   "MENTHE",
-].split();
+];
 
 const n = randomInt(0, words.length);
 console.log(chalk.yellow(words[n]));
-
-words = readlineSync.question("The word is: ");
-let password = readlineSync.question("word: ", { hideEchoBack: true });
-console.log(`Hello ${name} the word is : ${password}`);
-
-
-
-HANGMANPICS = ['''
-  +---+
-  |   |
-      |
-      |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
-      |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
-  |   |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
- /|   |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
- /    |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
- / \  |
-      |
-=========''']
